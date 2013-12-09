@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'AirstreamRegular';
+    src: url('../fonts/Airstream/airstream.eot');
+    src: url('../fonts/Airstream/airstream.eot') format('embedded-opentype'),
+         url('../fonts/Airstream/airstream.woff') format('woff'),
+         url('../fonts/Airstream/airstream.ttf') format('truetype'),
+         url('../fonts/Airstream/airstream.svg#AirstreamRegular') format('svg');
+}
+ 
+.badge {
+    background: rgb(80%, 2%, 22%);
+    width: 200px;
+    height: 200px;
+    left: 150px;
+    top: 75px;
+    position: relative;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.badge:before, .badge:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: inherit;
+    border-radius: inherit;
+}
+.badge:before {
+    -webkit-transform: rotate(30deg);
+       -moz-transform: rotate(30deg);
+        -ms-transform: rotate(30deg);
+         -o-transform: rotate(30deg);
+}
+.badge:after {
+    -webkit-transform: rotate(60deg);
+       -moz-transform: rotate(60deg);
+        -ms-transform: rotate(60deg);
+         -o-transform: rotate(60deg);
+}
+#content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    line-height: 180px;
+    font-family: 'AirstreamRegular';
+    border-radius: 360px;
+    background-color: #F0F8FF;
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    font-size: 3.9em;
+    color: rgb(5%, 52%, 92%);
+    top: 0;
+    left: 0;
+    background: rgba(390,275,215, 1);
+}
